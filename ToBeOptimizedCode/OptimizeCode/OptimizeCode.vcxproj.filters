@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\common\tinyxml\tinystr.cpp">
+      <Filter>common\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tinyxml\tinyxml.cpp">
+      <Filter>common\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tinyxml\tinyxmlerror.cpp">
+      <Filter>common\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tinyxml\tinyxmlparser.cpp">
+      <Filter>common\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\pugixml\pugixml.cpp">
+      <Filter>common\pugixml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\commonconfig.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\random.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\common\system_info.cpp">
+      <Filter>platform\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\common\timer.cpp">
+      <Filter>platform\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\network\socket_accept.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\network\socket_connect.cpp">
+      <Filter>platform\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\thread\mutex.cpp">
+      <Filter>platform\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\thread\signal.cpp">
+      <Filter>platform\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\thread\thread.cpp">
+      <Filter>platform\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\thread\thread_pool.cpp">
+      <Filter>platform\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\debug_message.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tools.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\memory\mempool.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\memory\byte_array\queue_byte_array.cpp">
+      <Filter>memory\byte_array</Filter>
+    </ClCompile>
+    <ClCompile Include="..\memory\serialize\serialize_base.cpp">
+      <Filter>memory\serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\memory\serialize\serialize_manager.cpp">
+      <Filter>memory\serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\network\network_manager.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\network\network_packer_factory.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\network\network_packer\network_packer_fixhead.cpp">
+      <Filter>network\network_packer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{d0b98248-b82c-4542-8c39-9a1117192127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\tinyxml">
+      <UniqueIdentifier>{bf48156a-d476-4b7b-ad26-68f57fd0025a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\pugixml">
+      <UniqueIdentifier>{c9a88db5-ae8b-4d62-b859-2c55d4797e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{04d1780a-14ef-4fe6-bd69-d90b706a7a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\common">
+      <UniqueIdentifier>{19e78b79-cc28-4821-a549-ce7073f91bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\network">
+      <UniqueIdentifier>{65dfcfc1-7f29-48da-a7d8-eda4d94075d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\thread">
+      <UniqueIdentifier>{dbeb59a9-1619-4e3a-8048-81ca18870d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{ca9d5c9e-744f-4a7c-a96f-8818360551ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{f7223c6d-7834-4e21-ab40-b57ab6c9cb8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory\byte_array">
+      <UniqueIdentifier>{a0d67564-0ece-428f-b894-dcd57ed043cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory\serialize">
+      <UniqueIdentifier>{4436dc61-ee37-44b9-8838-5c9ccf377475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\network_packer">
+      <UniqueIdentifier>{250eefe0-00cc-4ead-be3b-72862ff9cedd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\tinyxml\tinystr.h">
+      <Filter>common\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tinyxml\tinyxml.h">
+      <Filter>common\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\pugixml\pugiconfig.hpp">
+      <Filter>common\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\pugixml\pugixml.hpp">
+      <Filter>common\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\commonconfig.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\random.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\common\system_info.hpp">
+      <Filter>platform\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\common\timer.hpp">
+      <Filter>platform\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\network\socket_accept.hpp">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\network\socket_connect.hpp">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\network\socket_def.hpp">
+      <Filter>platform\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\thread\mutex.hpp">
+      <Filter>platform\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\thread\signal.hpp">
+      <Filter>platform\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\thread\thread.hpp">
+      <Filter>platform\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\thread\thread_pool.hpp">
+      <Filter>platform\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\platform_def.hpp">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\debug_message.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tools.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\memory\flexible_buffer.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\memory\mempool.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\memory\byte_array\byte_array.hpp">
+      <Filter>memory\byte_array</Filter>
+    </ClInclude>
+    <ClInclude Include="..\memory\byte_array\queue_byte_array.hpp">
+      <Filter>memory\byte_array</Filter>
+    </ClInclude>
+    <ClInclude Include="..\memory\serialize\serialize_base.hpp">
+      <Filter>memory\serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\memory\serialize\serialize_manager.hpp">
+      <Filter>memory\serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\network\network_manager.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\network\network_packer_factory.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\network\network_packer\network_packer_fixhead.hpp">
+      <Filter>network\network_packer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
